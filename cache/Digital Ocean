@@ -1,0 +1,257 @@
+<body class="company company_careers company_careers_index ">
+    <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KHWBBT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KHWBBT');</script>
+<!-- End Google Tag Manager -->
+
+
+    <div class="mobile-nav">
+  <div class="m-pikabu-sidebar m-pikabu-left">
+    <nav id="button-nav">
+       <ul>
+        <li><a href="https://cloud.digitalocean.com/login">Log In</a></li>
+        <li class="button-outline"><a href="https://cloud.digitalocean.com/registrations/new">Sign Up</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="close-panel icon-close"></a>
+     <nav id="mobile">
+      <ul>
+        <li><a class="" href="/pricing/">Pricing</a></li>
+        <li><a class="" href="/features/scaling/">Features</a></li>
+        <li><a class="" href="/community/">Community</a></li>
+        <li><a class="" href="/help/">Help</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+    <div class="m-pikabu-container">
+        <section class="company-section">
+    <div class="wrapper-full wrapper-career">
+      
+<section id="overlay">
+  <div class="careers-intro">
+    <div class="overlay-wrap">
+      <h1></h1>
+      <p class="description"></p>
+      <p class="meta">
+        <span class="location"></span>
+      </p>
+    </div>
+  </div>
+
+  <div class="single-nav">
+    <div class="overlay-wrap">
+      <a class="back" href="#">Back to Careers</a>
+      <h3></h3>
+      <a href="#" class="button applyButton" target="_blank">Apply Now</a>
+    </div>
+  </div>
+
+  <div id="job-posting">
+    <div class="overlay-wrap">
+      <article class="overview">
+        <h2>Overview</h2>
+      </article>
+    </div>
+  </div>
+
+  <div class="openings">
+    <div class="overlay-wrap">
+      <h3>Current Openings</h3>
+      <div class="jobs-list">
+  <div class="row"></div>
+</div>
+<div class="email-apply">
+  <span>
+    <strong>Don’t see your dream position listed right now?</strong> <a class="job-title talent" data-title="join-our-talent-community!" data-id="87038" href="#"> Join our Talent Community</a> and tell us what you’re interested in. You will be able to submit your information and you will receive regular career updates from DigitalOcean. Think of it as a way for us to stay connected as DigitalOcean continues to grow!
+  </span>
+</div>
+    </div>
+  </div>
+</section>
+
+<section id="main">
+  <div class="nav">
+    <ul>
+      <li>
+        <a href="#about-do" class="char" data-target="about-do">About DigitalOcean</a>
+      </li>
+      <li>
+        <a href="#perks" class="char" data-target="perks">Perks & Benefits</a>
+      </li>
+      <li>
+        <a href="#our-team" class="char" data-target="our-team">Our Team</a>
+      </li>
+      <li><a href="#current-openings" class="button char" data-target="current-openings">View Openings</a></li>
+    </ul>
+  </div>
+
+  <section class="careers-intro">
+    <div class="header-wrap header-fade">
+      <h1>Careers at DigitalOcean</h1>
+      <h4>We’re simplifying cloud infrastructure for developers. <br>We need talented people like you to help us on our mission.</h4>
+    </div>
+  </section>
+  <section class="photo-strip" id="photo-stripTop">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </section>
+  <section class="about" id="about-do">
+    <div class="wrapper">
+      <h3>About DigitalOcean</h3>
+      <p>We're a fast-growing, New York-based cloud infrastructure provider, and our talented team is at the center of everything we do. Our philosophy is collaboration-focused, remote-friendly, and flexible. We care deeply about supporting the growth of all our employees and making sure they feel professionally fulfilled.<br> <a href="https://www.themuse.com/companies/digitalocean" target="_blank">Learn more about what it’s like to work at DigitalOcean.</a></p>
+    </div>
+
+    <div id="do-stats">
+      <ul>
+        <li>
+          <span class="figure">650,000</span>
+          <span class="detail">Developers</span>
+        </li>
+        <li>
+          <span class="figure">196</span>
+          <span class="detail">Countries</span>
+        </li>
+        <li>
+          <span class="figure">12MM</span>
+          <span class="detail">Droplets</span>
+        </li>
+        <li>
+          <span class="figure">11</span>
+          <span class="detail">Data Centers</span>
+        </li>
+        <li>
+          <span class="figure">$123MM</span>
+          <span class="detail">Raised</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="careers-main">
+    <div id="loader">
+      <div id="loading"></div>
+    </div>
+    <div class="container" id="perks">
+      <h3>Perks & Benefits</h3>
+      <ul>
+        <li>
+          <span class="benefits-icon"></span>
+          Custom Work Stations
+          <p>Mac? PC? Linux? It doesn’t matter. At DO we’ll hook up your rig with whatever equipment you need.</p>
+        </li>
+        <li>
+          <span class="benefits-icon"></span>
+          Free Meals Every Day
+          <p>Our grandmother told us that food = love.  We show lots of love by making sure you never go hungry.</p>
+        </li>
+        <li>
+          <span class="benefits-icon"></span>
+          Flexible Vacation Time
+          <p>Take whatever time you need to live a balanced and fulfilling personal life.</p>
+        </li>
+        <li>
+          <span class="benefits-icon"></span>
+          Full Health Coverage
+          <p>We provide fully paid health benefits for all our employees.  Nobody gets sick on our watch. </p>
+        </li>
+        <li>
+          <span class="benefits-icon"></span>
+          Commuter Benefits
+          <p>We provide local employees with a monthly metrocard or equivalent reimbursement for remotes. </p>
+        </li>
+        <li>
+          <span class="benefits-icon"></span>
+          401K Plan
+          <p>It’s never too early to start saving. DigitalOcean matches up to 4% of every employee’s salary.</p>
+        </li>
+        <li>
+          <span class="benefits-icon"></span>
+          Awesome Events
+          <p>Do you like ski trips? Wine tasting? Team Trivia? Then you are in the right place. </p>
+        </li>
+        <li>
+          <span class="benefits-icon"></span>
+          Education Support
+          <p>We provide all employees with Kindles and reimbursement for conferences, training or education.</p>
+        </li>
+        <li>
+          <span class="benefits-icon"></span>
+          Gym Reimbursement
+          <p>We provide up to $100 per month for gym or any sort of physical activity.  Look good, feel good. </p>
+        </li>
+      </ul>
+    </div>
+    <section class="photo-strip" id="photo-stripBottom">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </section>
+
+    <section class="split">
+      <div class="wrapper">
+        <div class="container" id="our-team">
+          <div class="group-left">
+            <h3>Our Team</h3>
+            <p>We’re on a mission to make developers’ lives easier. It’s what brings us together and what keeps us going. We’re hard workers, independent thinkers, open communicators and voracious learners. We get the job done and we have fun doing it.</p>
+            <a href="../about" class="button" target="_blank">Meet the Team</a>
+          </div>
+        </div>
+        <div class="container" id="our-investors">
+          <div class="group-left">
+            <h3>Our Investors</h3>
+            <p>We’re proud to have the following partners and investors join us on our mission.</p>
+            <ul>
+              <li>Andreessen Horowitz</li>
+              <li>IA Ventures</li>
+              <li>TechStars</li>
+              <li>Crunch Fund</li>
+              <li>Access Industries</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container" id="current-openings">
+      <h3>Current Openings</h3>
+      <div class="jobs-list">
+  <div class="row"></div>
+</div>
+<div class="email-apply">
+  <span>
+    <strong>Don’t see your dream position listed right now?</strong> <a class="job-title talent" data-title="join-our-talent-community!" data-id="87038" href="#"> Join our Talent Community</a> and tell us what you’re interested in. You will be able to submit your information and you will receive regular career updates from DigitalOcean. Think of it as a way for us to stay connected as DigitalOcean continues to grow!
+  </span>
+</div>
+    </div>
+  </section>
+</section>
+
+<div class="Modal fade Modal--small" id="careers-na" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="Modal-dialog">
+    <div class="Modal-content">
+      <div class="Modal-header">
+        <a class="Icon--close Modal-close" data-dismiss="modal" aria-label="Close" span aria-hidden="true"></a>
+        <h2 class="u-mb-0">Job no longer available</h2>
+      </div>
+      <div class="Modal-body">
+        <p>Please take a look at our current available positions.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+    </div>
+    <script src="/assets/js/vendor.bundle-a3732206.js"></script><script src="/assets/js/application.bundle-0c6e68cc.js"></script>
+  </body>
