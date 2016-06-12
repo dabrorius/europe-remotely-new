@@ -1,6 +1,7 @@
 require 'open-uri'
 require 'digest/sha1'
 require 'yaml'
+require 'erb'
 
 sources = [
   {
@@ -44,4 +45,11 @@ puts sources_by_update_time
 
 File.open(cache_file, 'w') do |file|
   file.write(cache.to_yaml)
+end
+
+@companies = sources_by_update_time
+renderer = ERB.new(File.read('template.erb'))
+generated_html = renderer.result(binding)
+File.open('index.html', 'w') do |file|
+  file.write(generated_html)
 end
