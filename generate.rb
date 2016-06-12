@@ -34,7 +34,13 @@ sources.each do |source|
     cache[source_name][:hash] = web_content_hash
     cache[source_name][:updated_at] = Time.now
   end
+  source[:updated_at] = cache[source_name][:updated_at]
 end
+
+sources_by_update_time = sources.sort do |a, b|
+  b[:updated_at] <=> a[:updated_at]
+end
+puts sources_by_update_time
 
 File.open(cache_file, 'w') do |file|
   file.write(cache.to_yaml)
