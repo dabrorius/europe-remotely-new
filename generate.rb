@@ -1,5 +1,6 @@
 require 'open-uri'
 require 'digest/sha1'
+require 'yaml'
 
 sources = [
   {
@@ -16,18 +17,25 @@ sources = [
   }
 ]
 
+cache_file = 'cache.yml'
+cache = YAML.load_file(cache_file)
+
 sources.each do |source|
   content = open(source[:url]).read
   web_content = content.match(%r{<\s*body[^>]*>(.*)<\s*\/body[^>]*>}m)[0]
   web_content_hash = Digest::SHA1.hexdigest(web_content)
-  File.open("cache/#{source[:title]}", 'r') do |file|
-    cached_content = file.read
-    cached_content_hash = Digest::SHA1.hexdigest(cached_content)
-    puts "IS EQUAL? #{cached_content_hash == web_content_hash}"
-  end
 
-  File.open("cache/#{source[:title]}", 'w') do |file|
-    file.write(web_content)
+  source_name = source[:title]
+  cache[source_name] = {} unless cache.key?(source_name)
+  if cache[source_name][:hash] == web_content_hash
+    puts "No updates for #{source_name}"
+  else
+    puts "NEW! #{source_name}"
+    cache[source_name][:hash] = web_content_hash
+    cache[source_name][:updated_at] = Time.now
   end
-  #puts body
+end
+
+File.open(cache_file, 'w') do |file|
+  file.write(cache.to_yaml)
 end
