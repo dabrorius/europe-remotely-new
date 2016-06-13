@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  font-family: "Merriweather","Times","serif";
+  color: #333;
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+h1, h2 {
+  font-family: "Open Sans", "Helvetica";
+}
+
+h1 {
+  margin-top: 40px;
+}
+
+#introduction {
+  margin: 40px auto 10px auto;
+  width: 800px;
+  font-size: 22px;
+  text-align: left;
+}
+
+#mail_form {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  background-color: #f0f0f0;
+  margin: 30px auto 20px auto;
+  width: 800px;
+  border-radius: 5px;
+}
+
+.note {
+  font-family: "Open Sans", "Helvetica";
+  font-size: 12px;
+}
+
+input, textarea {
+  border: 2px solid #999;
+  font-size: 16px;
+  padding: 10px;
+  margin: 1.5em auto 0;
+  width: 350px;
+  color: #444;
+  font-family: "Open Sans", "Helvetica";
+  @media screen and (max-width: $break-point) {
+    width: 90%;
+    box-sizing: border-box;
+  }
+}
+
+input[type=submit] {
+  margin: 0.5em auto 1em;
+  width: 150px;
+  background-color: #00adef;
+  border: 2px solid #00adef;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  @media screen and (max-width: $break-point) {
+    width: 90%;
+    box-sizing: border-box;
+  }
+}
