@@ -63,3 +63,18 @@ input[type=submit] {
     box-sizing: border-box;
   }
 }
+
+#jobs {
+  margin: 40px auto 100px auto;
+  width: 800px;
+}
+
+#jobs a {
+  display: inline-block;
+  border: 1px solid black;
+  font-family: "Open Sans", "Helvetica";
+  padding: 4px;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}

@@ -34,10 +34,15 @@
     </div>
 
 
-    <ul>
+    <table id="jobs">
       <% @companies.each do |company| %>
-        <li><%= company[:title] %></li>
+        <tr>
+          <td><img src="images/icons/<%= company[:icon] %>" alt="<%= company[:title] %>"></td>
+          <td><%= company[:title] %> <%= company[:description] %></td>
+          <td><%= company[:updated_at] %></td>
+          <td><a href="<%= company[:url] %>" target="_blank">Open positions</a></td>
+        </tr>
       <% end %>
-    </ul>
+    </table>
   </body>
 </html>
